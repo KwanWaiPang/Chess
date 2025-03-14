@@ -2,13 +2,10 @@
 <html> 
   <head> 
     <title>GarboChess Javascript</title> 
-    <script type="text/javascript" src="js/2D/jquery-1.8.2.min.js"></script> 
-    <script type="text/javascript" src="js/2D/jquery-ui-1.8.24.custom.min.js"></script> 
-    <!-- CHESS AI -->
-    <script type="text/javascript" src="js/2D/garbochess.js"></script>
-
-    <!-- 棋盘 -->
-	<script type="text/javascript" src="js/2D/boardui.js"></script>
+    <script type="text/javascript" src="js/twoD/jquery-1.8.2.min.js"></script> 
+    <script type="text/javascript" src="js/twoD/jquery-ui-1.8.24.custom.min.js"></script> 
+    <script type="text/javascript" src="js/twoD/garbochess.js"></script>
+	<script type="text/javascript" src="js/twoD/boardui.js"></script>
 	<script type="text/javascript">
 	    $(document).ready(function () {
 	        g_timeout = 1000;
@@ -60,6 +57,9 @@
         FEN: <input id='FenTextBox' onchange="javascript:UIChangeFEN()"/>
         </div>
         <div>
+		<h2>About</h2>
+		<p>It started as a feasibility project to see how Javascript could do in Chess, then languished until Chrome came along.</p>
+		<a href="..\projects.html">Back to Projects</a>
 	</div>
      </div> 
   </body> 
