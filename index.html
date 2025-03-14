@@ -4,9 +4,8 @@
     <title>GarboChess Javascript</title> 
     <script type="text/javascript" src="js/2D/jquery-1.8.2.min.js"></script> 
     <script type="text/javascript" src="js/2D/jquery-ui-1.8.24.custom.min.js"></script> 
-    <!-- CHESS AI -->
     <script type="text/javascript" src="js/AI/garbochess.js"></script>
-	<script type="text/javascript" src="js/AI/boardui.js"></script>
+	<script type="text/javascript" src="jsAI/boardui.js"></script>
 	<script type="text/javascript">
 	    $(document).ready(function () {
 	        g_timeout = 1000;
@@ -52,8 +51,15 @@
         <div id='board'></div> 
         <span id='output'></span><br/> 
 	    <textarea cols='50' rows='6' id='PgnTextBox'></textarea><br/>
+        <div>
+            <a id='AnalysisToggleLink' href="javascript:UIAnalyzeToggle()">Analysis: Off</a>
+        </div>
+        FEN: <input id='FenTextBox' onchange="javascript:UIChangeFEN()"/>
         </div>
         <div>
+		<h2>About</h2>
+		<p>It started as a feasibility project to see how Javascript could do in Chess, then languished until Chrome came along.</p>
+		<a href="..\projects.html">Back to Projects</a>
 	</div>
      </div> 
   </body> 
