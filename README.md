@@ -1,7 +1,7 @@
 # 在线对弈
 
-* [国际象棋3D](https://kwanwaipang.github.io/western-chess/index3D.html)
-* [国际2D](https://kwanwaipang.github.io/western-chess/)
+* [国际象棋3D](https://kwanwaipang.github.io/western-chess/western-chess/index3D.html)
+* [国际2D](https://kwanwaipang.github.io/western-chess/western-chess/)
 * [五子棋](https://kwanwaipang.github.io/western-chess/wuziqi.html)
 * [中国象棋](https://kwanwaipang.github.io/western-chess/Chinese_Chess/)
 
