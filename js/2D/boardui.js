@@ -8,7 +8,7 @@ var g_changingFen = false;
 var g_analyzing = false;
 
 var g_uiBoard;
-var g_cellSize = 45;
+var g_cellSize = 45; //棋盘格大小
 
 function UINewGame() {
     moveNumber = 1;
