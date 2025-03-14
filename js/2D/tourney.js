@@ -90,7 +90,7 @@ function TestGame() {
 
 function TestGames() {
     if (oldGarboChess == null) {
-        oldGarboChess = new Worker("js/twoD/garbochess-old.js");
+        oldGarboChess = new Worker("js/2D/garbochess-old.js");
         oldGarboChess.onmessage = function (e) {
             if (e.data[0] != 'p') {
                 if (!CheckGameOver(GetMoveFromString(e.data))) {
