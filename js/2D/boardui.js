@@ -44,7 +44,7 @@ function UIAnalyzeToggle() {
             EnsureAnalysisStopped();
         }
         g_analyzing = !g_analyzing;
-        document.getElementById("AnalysisToggleLink").innerText = g_analyzing ? "Analysis: On" : "Analysis: Off";
+        document.getElementById("AnalysisToggleLink").innerText = g_analyzing ? "AI: On" : "AI: Off";
     } else {
         alert("Your browser must support web workers for analysis - (chrome4, ff4, safari)");
     }
