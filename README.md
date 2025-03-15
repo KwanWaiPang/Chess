@@ -12,3 +12,5 @@
 * [Chess3D](https://github.com/FrenchYann/Chess3D)
 * [A strong javascript chess engine using WebWorkers](https://github.com/glinscott/Garbochess-JS)
 * [weiqi](https://github.com/tlxfif/weiqi)
+* [react-tetris](https://github.com/chvin/react-tetris)
+* [1000个摸鱼小游戏、小工具源码集合及在线演示](https://github.com/wanghao221/moyu)

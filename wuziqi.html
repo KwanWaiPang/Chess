@@ -249,7 +249,7 @@ body {
 						computerWin[k] = 6 //这个位置对方不可能赢
 					}
 					if (myWin[k] == 5) {
-						resultTxt.innerHTML = '恭喜，你赢了！'
+						resultTxt.innerHTML = '😁You Win！'
 						over = true
 					}
 				}
@@ -265,7 +265,7 @@ body {
 					}
 					if (computerWin[k] == 5) {
 						resultTxt.innerHTML =
-							'o(╯□╰)o，计算机赢了，继续加油哦！'
+							'😭You Loss！'
 						over = true
 					}
 				}
@@ -351,7 +351,7 @@ body {
 						myWin[k] = 6 //这个位置对方不可能赢了
 						if (computerWin[k] == 5) {
 							resultTxt.innerHTML =
-								'o(╯□╰)o，计算机赢了，继续加油哦！'
+								'😭You Loss！'
 							over = true
 						}
 					}
