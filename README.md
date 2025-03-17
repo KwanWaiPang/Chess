@@ -6,6 +6,9 @@
 * [中国象棋](https://kwanwaipang.github.io/Chess/Chinese_Chess/)
 * [围棋](https://kwanwaipang.github.io/Chess/Go/)
 
+# 其他有趣的在线小游戏
+* [俄罗斯方块](https://chvin.github.io/react-tetris/?lan=en)
+
 
 # 参考资料
 * [itlwei/Chess](https://github.com/itlwei/Chess)
